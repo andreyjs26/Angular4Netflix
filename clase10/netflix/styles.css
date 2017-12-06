@@ -1,0 +1,100 @@
+/*Generales*/
+
+* {
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: #fff;
+	background: #141414;
+	font-size: 12px;
+    line-height: 1.2;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+header {
+	text-align: center;
+}
+
+section.main {
+	margin: 0 auto;
+	width: 70%;
+}
+
+/*Movies*/
+
+.movies ul {
+	list-style: none;
+	width: 100%;
+}
+
+.movies ul::after{
+	clear: both;
+	display: block;
+	height: 1px;
+	content: '';
+}
+
+.movies ul li {
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+.movies ul li img {
+	width: 150px;
+}
+
+.movies ul li button {
+	border: 1px solid #fff;
+	padding: 10px;
+}
+.movies ul li button:hover {
+	background: #e50914;
+	color: #141414;
+	border: 1px solid #e50914;
+}
+
+/*Preview*/
+
+.preview {
+	border: 1px solid grey;
+	padding: 5%;
+}
+
+.preview img{
+	width: 100%;
+}
+
+.preview button{
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+.preview button:hover {
+	background: #e50914;
+	color: #141414;
+	border: 1px solid #e50914;
+}
+
+/*pricing*/
+.pricing {
+	border: 1px solid grey;
+	padding: 2% 5%;
+}
+
+.pricing input {
+	border: 1px solid #e50914;
+	padding: 10px;
+}
+
+/*footer*/
+footer p{
+	color: grey;
+}
+

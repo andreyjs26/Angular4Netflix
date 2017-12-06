@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #1bc3a2;
+}
+
+/*Colores*/
+.jimmy {
+	background: #d35400;
+	width: 380px;
+	height: 380px;
+	border-radius: 50%;
+}
+
+.eye {
+	background: #ecf0f1;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.parpado_up, .parpado_down {
+	background: #d35400;
+	width: 120px;
+	height: 60px;
+}
+
+/*OJOS ABIERTOS*/
+.parpado_up {
+	position: relative;
+	top: -60px;
+	transition: 1s;
+	z-index: 100;
+}
+.parpado_down{
+	position: relative;
+	top: 60px;
+	transition: 1s;
+}
+
+/*OJOS CERRADOS*/
+/*.eye:hover .parpado_down{
+	top: 20px;
+}
+.eye:hover .parpado_up {
+	top: -5px;
+}
+.eye:hover .pupila {
+	left: 60px;
+}*/
+
+
+.eye .pupila{
+	background: #2c3e50;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+
+.mancha .manchita {
+	background: #e67e22;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.mancha .manchita.top {
+	width: 25px;
+	height: 25px;
+}
+
+.boca {
+	background: #e74c3c;
+	width: 100px;
+	height: 60px;
+	border-radius: 50%;
+	transition: 2s;
+	position: relative;
+}
+
+/*.jimmy:hover .boca{
+	top: -10px;
+	height: 2px;
+}*/
+
+.diente {
+	background: #ecf0f1;
+	height: 50px;
+	width: 20px;
+}
+
+
+/*Estructura*/
+header, section, footer{
+	width: 90%;
+	margin: 10px auto;
+	color: #2c3e50;
+	font-family: 'OpenSans';
+}
+
+p{
+	font-size: 12px;
+	padding: 10px;
+}
+
+.jimmy {
+	margin: 50px auto;
+	text-align: center;
+}
+
+.eye {
+	margin-top: 110px;
+	display: inline-block;
+	position: relative;
+}
+
+.pupila {
+	position: absolute;
+	top: 55px;
+	left: 45px;
+	transition: 1s;
+}
+
+.mancha {
+	margin-left: 40px;
+	z-index: 100;
+	position: relative;
+}
+
+.boca {
+	margin: 0 auto;
+	position: relative;
+	top: -50px;
+	overflow: hidden;
+}
+
+.diente {
+	border-radius: 5px;
+	top: -20px;
+	position: relative;
+	display: inline-block;
+}
+
+button {
+	padding: 10px 20px;
+}
